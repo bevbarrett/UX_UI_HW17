@@ -13,16 +13,14 @@
     font-family: "Montserrat", sans-serif;
 
 }
-body {
-    height: 5000px;
+body 
     
-  }
+  
 
   header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: relative;
       top: 46px;
 
   }
@@ -48,3 +46,22 @@ body {
 }
 
 
+
+.heroContent{
+    position:inherit;
+   
+    
+}
+
+.tickets {
+    
+    float: left;
+    padding-left: 50px;
+ 
+   
+}
+
+.right {
+    float: right;
+    padding-right: 50px;
+}
