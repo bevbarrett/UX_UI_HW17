@@ -1,8 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;1,300&display=swap');
-@media screen {max-width: 1512;
-}   
+   
 
 
 *{
@@ -47,21 +46,37 @@ body
 
 
 
-.heroContent{
-    position:inherit;
+.heroContent {
+    position: inherit;
+    padding-bottom: 20px;
    
     
 }
 
-.tickets {
+.button1 {
+    background-color: #F6C547;
+    display: inline-block;
+    border: none;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    margin-left: 500px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     
-    float: left;
-    padding-left: 50px;
- 
-   
 }
 
-.right {
-    float: right;
-    padding-right: 50px;
+.button2 {
+    background-color: #F6C547;
+    display: inline-block;
+    border: none;
+    color: black;
+    padding: 10px 30px 10px 30px;
+    margin-left: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
 }
